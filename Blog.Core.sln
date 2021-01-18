@@ -23,8 +23,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.Core.Extensions", "Blo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.Core.ConsoleApp", "Blog.Core.ConsoleApp\Blog.Core.ConsoleApp.csproj", "{BB9FBBDF-B112-44F2-ABB7-9C31CFB619FE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.Core.AdminMvc", "Blog.Core.AdminMvc\Blog.Core.AdminMvc.csproj", "{06D885F3-6352-4BF6-B826-DEA742DFFBD7}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D9833F24-7BD0-486F-B028-F1FD098AA1E1}"
 	ProjectSection(SolutionItems) = preProject
 		.dockerignore = .dockerignore
@@ -44,7 +42,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{EDA8901E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.Core.Tests", "Blog.Core.Tests\Blog.Core.Tests.csproj", "{300A8113-8033-4184-BE28-FC48D8349CD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.Core.EventBus", "Blog.Core.EventBus\Blog.Core.EventBus.csproj", "{E4D54281-8812-4C4D-AAE6-1365F172020B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.Core.EventBus", "Blog.Core.EventBus\Blog.Core.EventBus.csproj", "{E4D54281-8812-4C4D-AAE6-1365F172020B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -92,10 +90,6 @@ Global
 		{BB9FBBDF-B112-44F2-ABB7-9C31CFB619FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB9FBBDF-B112-44F2-ABB7-9C31CFB619FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB9FBBDF-B112-44F2-ABB7-9C31CFB619FE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{06D885F3-6352-4BF6-B826-DEA742DFFBD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{06D885F3-6352-4BF6-B826-DEA742DFFBD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{06D885F3-6352-4BF6-B826-DEA742DFFBD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{06D885F3-6352-4BF6-B826-DEA742DFFBD7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{300A8113-8033-4184-BE28-FC48D8349CD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{300A8113-8033-4184-BE28-FC48D8349CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{300A8113-8033-4184-BE28-FC48D8349CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
