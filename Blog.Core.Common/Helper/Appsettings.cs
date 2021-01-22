@@ -65,5 +65,13 @@ namespace Blog.Core.Common
             Configuration.Bind(string.Join(":", sections), list);
             return list;
         }
+
+        /*
+        2021-1-22
+        appsetting 相关知识的学习
+
+        文献:
+        IConfiguration https://docs.microsoft.com/zh-cn/aspnet/core/fundamentals/configuration/?view=aspnetcore-5.0&tabs=basicconfiguration
+         */
     }
 }
