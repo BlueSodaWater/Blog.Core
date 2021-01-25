@@ -72,6 +72,7 @@ namespace Blog.Core.Common
 
         文献:
         IConfiguration https://docs.microsoft.com/zh-cn/aspnet/core/fundamentals/configuration/?view=aspnetcore-5.0&tabs=basicconfiguration
+        2021-1-25截至，Configuration内容未深究
          */
     }
 }

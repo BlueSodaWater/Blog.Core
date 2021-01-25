@@ -2,6 +2,7 @@
 
 namespace Blog.Core.Common.Helper
 {
+    //nothing to learn
     public static class ConsoleHelper
     {
         static void WriteColorLine(string str, ConsoleColor color)
@@ -49,6 +50,5 @@ namespace Blog.Core.Common.Helper
         {
             WriteColorLine(str, color);
         }
-
     }
 }

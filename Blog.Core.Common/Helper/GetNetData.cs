@@ -83,6 +83,9 @@ namespace Blog.Core.Common.Helper
             string retString = await reader.ReadToEndAsync();
             return retString;
         }
+
+        // 2021-1-25
+        // C#中HttpWebRequest、WebClient、HttpClient的使用详解 https://www.cnblogs.com/nnnnnn/p/13509169.html
     }
 
 
